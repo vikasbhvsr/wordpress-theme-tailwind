@@ -9,7 +9,8 @@
 	"author": "Vikas Bhavsar",
 	"license": "ISC",
 	"dependencies": {
-		"tailwindcss": "^1.4.6"
+		"@tailwindcss/typography": "^0.2.0",
+		"tailwindcss": "^1.6.0"
 	},
 	"devDependencies": {
 		"autoprefixer": "^9.8.4",

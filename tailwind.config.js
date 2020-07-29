@@ -15,7 +15,7 @@ module.exports = {
 			transparent: "transparent",
 			current: "currentColor",
 
-			black: "#000",
+			black: "#0a0a0a",
 			white: "#fff",
 
 			gray: {
@@ -735,5 +735,5 @@ module.exports = {
 		transitionDelay: ["responsive"],
 	},
 	corePlugins: {},
-	plugins: [],
+	plugins: [require("@tailwindcss/typography")],
 };
